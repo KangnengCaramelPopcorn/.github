@@ -20,9 +20,38 @@ Campus Connect(CC)는 학생들이 경험하는 교내 불편을 AI로 신속히
 5. **보상 체계**: 기여 학생에게 포인트/배지 제공
 
 ## 🌐 기술 스택
-- **프론트엔드**: 반응형 웹 디자인
-- **백엔드**: NCP 클라우드, Firebase
-- **AI**: NLP 기반 중복 이슈 분석
+
+### 프론트엔드
+- **React**: 사용자 인터페이스를 구성하는 라이브러리
+- **Styled Components**: CSS-in-JS 방식으로 스타일링
+- **Node.js**: JavaScript 런타임 환경
+- **Figma**: UI/UX 디자인 도구
+- **Axios**: HTTP 요청을 위한 라이브러리
+- **JSX**: React에서 HTML-like 문법 사용
+
+### 백엔드
+- **Java 17**: 최신 버전의 Java로 백엔드 구현
+- **Spring Boot 3.4.1**: RESTful API 및 서버 구축
+- **Gradle-Groovy**: 빌드 도구 및 자동화
+- **전역 예외 처리**: 애플리케이션 전체 예외 처리
+- **Swagger**: API 문서화 도구
+- **API Wrapper**: API 호출을 래핑하는 구조
+- **JWT (JSON Web Token)**: 사용자 인증 및 권한 부여
+- **SMTP**: 이메일 전송 서비스
+- **Nginx**: 리버스 프록시 및 로드 밸런서
+
+### AI
+- **Python 3.11.10**: AI 모델 구현을 위한 Python 버전
+- **Poetry**: Python 프로젝트의 의존성 관리 및 빌드 도구
+- **py-env**: Python 환경 관리 도구
+- **LangChain**: 자연어 처리(NLP) 및 AI 파이프라인 구축
+- **LangGraph**: 자연어 그래프 기반 AI 모델
+
+### 클라우드 및 인프라
+- **Naver Server S2-G3**: 클라우드 서버
+- **Docker**: 애플리케이션 컨테이너화
+- **Docker Compose**: 멀티 컨테이너 애플리케이션 정의 및 실행
+- **GitHub Actions**: CI/CD 파이프라인 자동화
 
 ## 🔍 사용자 시나리오
 - **진로 고민 해결**: FAQ 챗봇에서 취업 지원 정보 제공
